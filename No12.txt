@@ -1,0 +1,12 @@
+# 12- What data type would Array.map() and Array.filter() return?
+
+Additionally what will be the output of this ?
+
+```js
+let array = [1,2,3, 0, 4,10, 0];
+let output = array.filter((item) => item); 
+```
+
+## My answer
+- They return array.
+- The above will return `[1,2,3,4,10]` which has no false(0) value.
