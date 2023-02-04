@@ -1,0 +1,7 @@
+# 10- What does the functions pop and push do to an array? And what do they return ?
+
+## My answer
+- `pop and push` are methods for array and they add or remove values from array.
+- `pop` returns the value which is removed.
+- 'push' returns the length of array after a value is added
+
