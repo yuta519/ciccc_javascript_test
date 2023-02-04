@@ -1,0 +1,8 @@
+# 14- Write down the 4 main methods of rest api
+
+## My answer
+- CRUD
+ - Create
+ - Read
+ - Update
+ - Delete
