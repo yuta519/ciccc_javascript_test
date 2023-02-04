@@ -1,0 +1,6 @@
+# 9- Explain what a callback function is.
+
+## My answer
+- A function passed as an argument to another function
+- For example, `setTimeout(()=>{}, 1000)` has a call back function as 1st arg
+
