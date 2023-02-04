@@ -1,0 +1,7 @@
+# 2- Name 3 examples of ES6 features which you learnt.
+
+
+## My answer
+1. Arrow function
+2. reduce
+3. Promise
