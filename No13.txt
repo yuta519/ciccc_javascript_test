@@ -1,0 +1,4 @@
+# 13- What data type would Array.includes() and Array.some() return?
+
+## My answer
+- Boolean
