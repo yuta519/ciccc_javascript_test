@@ -1,0 +1,58 @@
+# 5- What does setInterval and setTimeout do?
+
+## My answer
+- setInterval()
+  - `setInterval()` execute a function of 1st arg continues at intervals of 2nd arg.
+  - `setInterval()` stop when you call `clearInterval()`.
+- setTimeout()
+  - `setTimeout()` set a timer with 2nd arg.
+  - When a timer ended, it calls function of 1st arg.
+
+
+# What will be the output of the following ?
+
+## FIRST
+```js
+ for (var i = 0 ; i < 5 ; i++) {
+       setTimeout(() => {
+       console.log(i);
+}, 0);
+}
+```
+
+## My answer
+The output is ...
+```js
+5
+5
+5
+5
+5
+```
+
+This is because `var` is a function scope.
+This code works:
+1. In iterations, `var i` is added like 0, 1, 2, 3, 4 and ended.
+2. After 1. iterations, setTimeout uses var i = 4 + 1 (means 5).
+3. setTimeout works 5 times.
+
+## SECOND
+```js
+ for (let i = 0 ; i < 5 ; i++) {
+       setTimeout(() => {
+       console.log(i);
+}, 0);
+}
+```
+## My answer
+The output is ...
+```js
+0
+1
+2
+3
+4
+```
+This is because `let` is a block scope.
+So after `let i` is added, setTimeout works immediately.
+
