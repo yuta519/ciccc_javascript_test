@@ -1,0 +1,13 @@
+###### 11- What is the expected answer to this code?
+```js
+let string = "";
+let object = { a: 1, b: 2, c: 3 };
+
+for (let key in object) {
+  string += object[key];
+}
+```
+
+## My answer
+- string -> '123'
+- object -> { a: 1, b: 2, c: 3 }
