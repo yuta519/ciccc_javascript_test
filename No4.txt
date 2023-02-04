@@ -1,0 +1,35 @@
+# 4- How do you access object values? Give 3 examples
+
+## My answer
+- I'm confused this question. Do object values mean pure javascript object or DOM?
+- I thought it means DOM, but I wrote down both answers.
+
+- Javascript objcet case
+  - Given
+  ```js
+  object = {
+   'name': 'Yuta',
+   'age': 1,
+  }
+  ```
+  - Answers
+    - Use dot notation
+       ```js
+       console.log(object.name)
+       console.log(object.age)
+       ```
+    - Use square bracket notation
+       ```js
+       console.log(object['name'])
+       console.log(object.['age'])
+       ```
+    - Use Object.values()
+      ```js
+      console.log(Object.values(object))
+      ```
+
+- DOM case
+1. xxx.getElementById()
+2. xxx.querySelector()
+3. xxx.getElementsByClassName()
+
