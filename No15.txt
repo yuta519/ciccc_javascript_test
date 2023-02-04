@@ -1,0 +1,6 @@
+# 15- What is the difference between JSON and a JavaScript object?
+
+## My answer
+- JSON is used for exchanging data between a client and a server.
+- While Javascript object is used for creating data in Javascript.
+- JSON is based in text, while js object are made with properies.
