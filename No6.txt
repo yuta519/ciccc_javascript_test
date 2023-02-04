@@ -1,0 +1,5 @@
+# 6- What are promises?
+
+## My answer
+- It's a useful javascript object when you want to operate async.
+- Promise waits an asynchronous operation and gets the result which is success or failed.
