@@ -1,0 +1,8 @@
+# 1- What is ES6?
+
+## My answer
+- ES6 is short for ECMAScript 6. The 6th version of ECMAScript.
+- It is also known as ECMAScript 2015.
+- When Javascript was created, it was a completely non-standard language.
+- Because Brendan Eich, who created Javascript, worked in Netscape, and the features were only for Netscape.
+- So ECMAscript was created to standardise features of Javascript.
