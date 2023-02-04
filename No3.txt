@@ -1,0 +1,15 @@
+# 3- What is the difference between let and const?
+
+## My answer
+- Re-assign
+  - `let` is possible to reassign.
+    ```js
+      let variable_let = 'Yuta'
+      variable_let = 'Prabh' // It works
+    ```
+  - `const` is impossible to reassign. Immutable.
+    ```js
+      const variable_let = 'Yuta'
+      variable_let = 'Prabh' // It doesn't work
+    ```
+
